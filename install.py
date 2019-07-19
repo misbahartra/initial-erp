@@ -374,13 +374,13 @@ def parse_commandline_args():
 
 	parser.add_argument('--repo-url', dest='repo_url', help='Clone bench from the given url')
 
-	parser.add_argument('--frappe-repo-url', dest='frappe_repo_url', action='store', default='https://gitlab.com/misbahartra/frappe',
+	parser.add_argument('--frappe-repo-url', dest='frappe_repo_url', action='store', default='https://gitlab.com/inmotiongroup/frappe-cipta.git',
 		help='Clone frappe from the given url')
 
 	parser.add_argument('--frappe-branch', dest='frappe_branch', action='store',
 		help='Clone a particular branch of frappe')
 
-	parser.add_argument('--erpnext-repo-url', dest='erpnext_repo_url', action='store', default='https://gitlab.com/misbahartra/erpnext-pt-cipta',
+	parser.add_argument('--erpnext-repo-url', dest='erpnext_repo_url', action='store', default='https://gitlab.com/inmotiongroup/erp-cipta.git',
 		help='Clone erpnext from the given url')
 
 	parser.add_argument('--erpnext-branch', dest='erpnext_branch', action='store',
